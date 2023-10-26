@@ -1,4 +1,5 @@
 1. Embedding API Curl:
+
 curl --location 'https://api.openai.com/v1/embeddings' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -6,6 +7,7 @@ curl --location 'https://api.openai.com/v1/embeddings' \
 }'
 
 2. Chat GPT API Curl:
+
 curl --location 'http://localhost:8080/api/chat/gpt' \
 --header 'Content-Type: application/json' \
 --data '{
